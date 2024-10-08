@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(to left bottom, rgba(132, 131, 131, 0.627), rgba(0, 0, 0, 0.813)), url(images/login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box h2 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 400;
+}
+
+.phn {
+    display: flex;
+}
+
+.form {
+    border: 2px solid white;
+    padding: 20px;
+}
+
+input {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    color: white;
+
+}
+
+input::placeholder {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.confi input {
+    width: 400px;
+}
+
+.pass input {
+    width: 400px;
+}
+
+.mail input {
+    width: 400px;
+}
+
+.name input {
+    width: 160px;
+}
+
+.number input {
+    width: 280px;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+}
+
+.but button {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border: 2px solid white;
+    width: 100px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+span a {
+    color: white;
+}
+
+span {
+    float: right;
+}
+input[type='date']{
+    color: white;
+}
